@@ -552,6 +552,8 @@ require('lazy').setup({
         tsserver = {},
         clangd = {},
         bashls = {},
+        marksman = {},
+        html = {},
         --
 
         lua_ls = {
