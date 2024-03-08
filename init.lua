@@ -563,6 +563,7 @@ require('lazy').setup({
         bashls = {},
         marksman = {},
         html = {},
+        cssls = {},
         --
 
         lua_ls = {
@@ -624,7 +625,6 @@ require('lazy').setup({
       }
     end,
   },
-
   { -- Autoformat
     'stevearc/conform.nvim',
     opts = {
